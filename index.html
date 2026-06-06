@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Пекарна „Златна Коричка“</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container nav-container">
+    <a href="#home" class="logo">Златна Коричка</a>
+
+        <nav class="nav">
+        <a href="index.html" class="nav-link">Начало</a>
+        <a href="products.html" class="nav-link">Продукти</a>
+        <a href="about.html" class="nav-link">За нас</a>
+        <a href="activity.html" class="nav-link">Основна дейност</a>
+        <a href="news.html" class="nav-link">Новини</a>
+        <a href="contacts.html" class="nav-link">Контакти</a>
+        <a href="gallery.html" class="nav-link">Галерия</a>
+        <a href="resources.html" class="nav-link">Полезни ресурси</a>
+    </nav>
+
+    <button class="cart-btn">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-text">Количка</span>
+        <span class="cart-count">(0)</span>
+    </button>
+
+    <button class="nav-toggle" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    </div>
+</header>
+
+<main id="home">
+    <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+        <h1>Прясно изпечено всеки ден</h1>
+        <p>
+          Занаятчийски хлябове, сладкиши и десерти, приготвени с любов и
+          внимателно подбрани съставки.
+        </p>
+
+        <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Поръчай сега</a>
+        <a href="#about" class="btn btn-secondary">Повече за нас</a>
+        </div>
+    </div>
+    </section>
+
+    <section id="products" class="products-section">
+    <div class="container">
+        <div class="products-header">
+        <h2>Нашите специалитети</h2>
+        <p>
+            Открий нашия избор от ръчно приготвени хлябове, сладкиши и десерти,
+            правени всеки ден в пекарна „Златна Коричка“.
+        </p>
+        </div>
+
+        <div class="products-grid">
+        <article class="product-card">
+            <div class="product-image">
+            <img src="img/bread.jpg" alt="Занаятчийски хляб" class="zoom-photo">
+            </div>
+            <div class="product-body">
+            <h3>Занаятчийски хляб</h3>
+            <p class="product-desc">
+                Традиционен хляб с дълга ферментация, хрупкава коричка и мек, ароматен център.
+            </p>
+            <div class="product-footer">
+                <span class="product-price">8.99 лв.</span>
+                <button class="btn btn-primary btn-add">Добави</button>
+            </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+            <img src="img/croissant.jpg" alt="Пресни кроасани" class="zoom-photo">
+            </div>
+            <div class="product-body">
+            <h3>Пресни кроасани</h3>
+            <p class="product-desc">
+                Маслени кроасани, изпечени рано сутрин за идеална закуска или следобедно кафе.
+            </p>
+            <div class="product-footer">
+                <span class="product-price">4.99 лв.</span>
+                <button class="btn btn-primary btn-add">Добави</button>
+            </div>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-image">
+            <img src="img/cake.jpg" alt="Празнични торти" class="zoom-photo">
+            </div>
+            <div class="product-body">
+            <h3>Празнични торти</h3>
+            <p class="product-desc">
+                Ръчно декорирани торти по поръчка за рождени дни, сватби и други специални поводи.
+            </p>
+            <div class="product-footer">
+                <span class="product-price">от 45 лв.</span>
+                <button class="btn btn-primary btn-add">Добави</button>
+            </div>
+            </div>
+        </article>
+        </div>
+    </div>
+    </section>
+
+    <section class="services-section">
+    <div class="container">
+        <h2>Основна дейност</h2>
+        <p class="services-intro">
+          Основната дейност на пекарна „Златна Коричка“ включва ежедневно печене,
+          специализирани поръчки и кетъринг услуги за частни и фирмени събития.
+        </p>
+
+        <div class="services-grid">
+        <div class="service-box">
+            <h3>Ежедневно печене</h3>
+            <ul>
+            <li>Пресен хляб през целия ден</li>
+            <li>Сутрешни закуски и кифли</li>
+            <li>Сезонни продукти (козунаци, коледни сладки)</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <h3>Кетъринг</h3>
+            <ul>
+            <li>Хапки и мини сладки</li>
+            <li>Кафе-паузи за фирми</li>
+            <li>Меню за събития и обучения</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <h3>Специални поръчки</h3>
+            <ul>
+            <li>Торти по дизайн на клиента</li>
+            <li>Персонализирани надписи и декорации</li>
+            <li>Безглутенови и веган предложения</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="services-table-wrapper">
+        <h3>Преглед на предлаганите услуги</h3>
+        <table class="services-table">
+            <thead>
+            <tr>
+                <th>Категория</th>
+                <th>Примерен продукт/услуга</th>
+                <th>Подходящо за</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ежедневно печене</td>
+                <td>Домашен хляб, кроасани, банички</td>
+                <td>Ежедневна консумация, семейства</td>
+            </tr>
+            <tr>
+                <td>Кетъринг</td>
+                <td>Асорти мини сладки и соленки</td>
+                <td>Фирмени събития, конференции</td>
+            </tr>
+            <tr>
+                <td>Специални поръчки</td>
+                <td>Сватбена торта, юбилейна торта</td>
+                <td>Лични празници, специални поводи</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    </section>
+
+    <section id="about" class="about-section">
+    <div class="container">
+        <h2>За организацията</h2>
+
+        <div class="about-layout">
+        <div class="about-text">
+            <h3>Име и история</h3>
+            <p>
+              Пекарна <strong>„Златна Коричка“</strong> е семейна пекарна,
+              създадена през 2015 г. от семейство Иванови. Започва като малка
+              работилница, а днес е любимо място за пресен хляб в квартала.
+            </p>
+
+            <h3>Мисия</h3>
+            <p>
+              Да предлагаме прясно изпечени изделия с честни съставки и да
+              създаваме усещане за дом и топлина за всеки клиент.
+            </p>
+
+            <h3>Постижения</h3>
+            <ul>
+            <li>„Най-добра квартална пекарна“ – 2019 г.</li>
+            <li>Участия в местни кулинарни фестивали.</li>
+            <li>Собствени авторски рецепти за сезонни продукти.</li>
+            </ul>
+
+            <h3>Партньори и клиенти</h3>
+            <p>
+              Работим с кафенета, офиси и училища в района, но най-важни за
+              нас остават семейните клиенти, които избират нашия хляб за своята трапеза.
+            </p>
+        </div>
+
+        <div class="about-media">
+            <img src="img/about-bakery.jpg" alt="Интериор на пекарна „Златна Коричка“" class="zoom-photo">
+
+            
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="news" class="news-section">
+    <div class="container">
+        <h2>Новини</h2>
+        <div class="news-list">
+        <article class="news-item">
+            <span class="news-date">15.01.2026 г.</span>
+            <h3>Отваряме нов кът за кафе</h3>
+            <p>
+              От февруари пекарна „Златна Коричка“ ще предлага и специално кафе
+              от малки пекарни, както и повече места за сядане на място.
+            </p>
+        </article>
+
+        <article class="news-item">
+            <span class="news-date">02.12.2025 г.</span>
+            <h3>Коледно меню 2025</h3>
+            <p>
+              Подготвили сме специално коледно меню с ароматни щолени,
+              джинджифилови сладки и празнични торти. Приемат се поръчки до
+              20.12.2025 г.
+            </p>
+        </article>
+
+        <article class="news-item">
+            <span class="news-date">10.09.2025 г.</span>
+            <h3>Работилница „Хляб у дома“</h3>
+            <p>
+              Организираме уикенд работилници за любители, в които показваме
+              основните стъпки при приготвяне на домашен заквасен хляб.
+            </p>
+        </article>
+        </div>
+    </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-grid">
+
+    <div class="footer-col">
+    <h3>Пекарна „Златна Коричка“</h3>
+    <p class="footer-text">
+        Занаятчийска пекарна с пресен хляб, сладкиши и десерти,
+        приготвени всеки ден с подбрани съставки.
+    </p>
+    </div>
+
+    <div class="footer-col">
+    <h4>Страници</h4>
+    <ul class="footer-links">
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="products.html">Продукти</a></li>
+        <li><a href="about.html">За нас</a></li>
+        <li><a href="activity.html">Основна дейност</a></li>
+        <li><a href="news.html">Новини</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="gallery.html">Галерия</a></li>
+        <li><a href="resources.html">Полезни ресурси</a></li>
+    </ul>
+    </div>
+
+    <div class="footer-col">
+    <h4>Социални мрежи</h4>
+    <ul class="footer-links">
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/" target="_blank">TikTok</a></li>
+    </ul>
+    </div>
+
+    <div class="footer-col">
+    <h4>Партньори</h4>
+    <ul class="footer-links">
+        <li><a href="#" target="_blank">Кафе „Арома“</a></li>
+        <li><a href="#" target="_blank">Местна мелница „Добро Жито“</a></li>
+        <li><a href="#" target="_blank">Училище „Св. Климент“</a></li>
+    </ul>
+    </div>
+
+</div>
+
+<div class="footer-bottom">
+    <p>© 2026 Пекарна „Златна Коричка“. Всички права запазени.</p>
+</div>
+</footer>
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
